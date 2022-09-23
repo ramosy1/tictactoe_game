@@ -9,7 +9,7 @@ Body {
     flex-direction: column;
     align-items: center;
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("./images/pexels-pixabay-235721\(2\).jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("./images/pexels-pixabay-235721.jpg");
     background-repeat: none;
     background-attachment: fixed;
     background-position: center;

@@ -1,0 +1,67 @@
+:root {
+    --winning_grids: #9a031e;
+}
+
+Body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("./images/pexels-pixabay-235721\(2\).jpg");
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    cursor: pointer;
+    background-color: #dda25e97;
+}
+
+.box {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.right-border {
+    border-right: 0.1em solid white;
+}
+
+.bottom-border {
+    border-bottom: 0.1em solid white;
+}
+
+#btn {
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px;
+    border: 2px solid currentColor;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 35px;
+    color: currentColor;
+}
+
+button:hover {
+    color: #dda15e;
+    background-color: white;
+}

@@ -1,6 +1,6 @@
 # Tic Tac Toe Game
 
-<p><img src="gifs/tictactoe.gif" alt="tic tac toe gif" title="Tic Tac Toe Game"></p>
+<p><img src="gifs/tictactoe.gif" alt="tic tac toe gif" title="Tic Tac Toe Game" width="50%" height="50%"></p>
 
 <p><b>Link to project: </b><a href="https://ramosy1.github.io/tictactoe_game/">Tic Tac Toe Game</a></p>
 
